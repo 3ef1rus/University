@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p><img id="BigImg" src="https://mobimg.b-cdn.net/v3/fetch/4d/4d671cfe78cbb63a617875e1f6023157.jpeg" alt="Large image" width="500pt"></p>
+
+<ul id="spisok">
+<li>
+  <img src="https://mobimg.b-cdn.net/v3/fetch/4d/4d671cfe78cbb63a617875e1f6023157.jpeg" alt="" width="100pt">
+</li>
+<li>
+  <img src="https://klike.net/uploads/posts/2018-10/1539499416_1.jpg" alt="" width="100pt">
+</li>
+<li>
+ <img src="https://cdn.lifehacker.ru/wp-content/uploads/2018/12/Kak-fotografirovat-kotikov-19-sovetov-ot-professionala_1544744286.jpg" alt="" width="100pt">
+</li>
+</ul>
+<script>
+   spisok.onclick = function(event) {
+    
+      let smallImg = event.target.closest('img');
+
+      if (!smallImg) return;
+      showSmallImg(smallImg.src, smallImg.title);
+      
+    }
+
+    function showSmallImg(src, title) {
+      BigImg.src = src;
+    } 
+</script>
+</body>
+</html>

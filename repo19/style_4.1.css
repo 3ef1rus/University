@@ -1,0 +1,97 @@
+body{
+    background-color: aqua;
+}
+.body{
+    background-color: rgb(55, 135, 255);
+    display: flex;
+    height: 800px;
+    width: 800px;
+}
+.Lcolum{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: orange;
+}
+.Rcolum{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: orange;
+}
+.Lup{
+    flex: 1;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(55, 0, 255);
+}
+.Ldown{
+    flex: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+.Rup{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+.Rdown{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 2;
+    display: flex;
+    background-color: rgb(55, 0, 255);
+}
+.box1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    flex: 1;
+    background-color: deeppink;
+}
+.box2{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    flex: 1;
+    background-color: deeppink;
+}
+.box3{
+    margin-top: 30px;
+    margin-left: 10px;
+    flex: 1;
+    background-color: deeppink;
+}
+.box4{
+    flex: 2;
+    background-color: orange;
+}
+.box5{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    flex: 1;
+    background-color: deeppink;
+}
+.box6{
+    flex: 2;
+    
+}

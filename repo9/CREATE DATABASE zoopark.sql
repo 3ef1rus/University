@@ -1,0 +1,4 @@
+DROP DATABASE zoopark
+GO
+CREATE DATABASE zoopark
+GO
